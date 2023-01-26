@@ -226,8 +226,16 @@ nav ul li a:hover{
     font-weight: 400;
 }
 
-
+.img-mobile{
+    display: none;
+}
 @media (max-width: 900px) {
+    .img-web{
+        display: none;
+    }
+    .img-mobile{
+        display: block;
+    }
     body{
         margin: 0;
         padding: 0;
@@ -255,6 +263,7 @@ nav ul li a:hover{
         margin-right: 5%;
     }
     .mid img{
+        object-fit: scale-down;
         width: 95%;
         height: 21em;
     }
