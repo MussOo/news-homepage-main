@@ -115,10 +115,16 @@ nav ul li a:hover{
     background-color: hsl(5, 85%, 63%);
     color: white;
     font-size: 1em;
-    font-weight: 400;
+    font-weight: 700;
     letter-spacing: 3px;
     margin-top: 1em;
     margin-right: 1em;
+}
+.details .btn button:hover{
+    background-color: hsl(240, 100%, 5%);
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: 700;
 }
 .Main .main-right{
     background-color: hsl(240, 100%, 5%);
@@ -215,12 +221,18 @@ nav ul li a:hover{
     
     font-size: 3em;
 }
-.header .title{
-    color: hsl(240, 100%, 5%);
-    font-size: 1.6em;
+.title a{
+    text-decoration: none;
+    color: black;
+    font-size: 2.5vh;
     font-weight: 700;
 }
-
+.title a:hover{
+    text-decoration: none;
+    color: hsl(5, 85%, 63%);
+    font-size: 2.5vh;
+    font-weight: 700;
+}
 .content-article .description{
     width: 100%;
     display: flex;
@@ -289,12 +301,7 @@ nav ul li a:hover{
         width: 100%;
         margin-right: 2%;
     }
-    .details .btn{
-        width: 100%;
-        display: flex;
-        margin-top: 1em;
-        margin-bottom: 4em;
-    }
+
     .Main .main-right{
         background-color: hsl(240, 100%, 5%);
         width: 95%;

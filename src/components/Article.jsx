@@ -7,7 +7,7 @@ function Article({number, title, description, img}) {
     <div className='content-article'>
       <div className='header'>
         <div className='number'>{number}</div>
-        <div className='title'>{title}</div>
+        <div className='title'><a href="">{title}</a></div>
       </div>
       <div className='description'>
         <span>{description} </span>
