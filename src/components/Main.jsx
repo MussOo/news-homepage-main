@@ -4,8 +4,8 @@ function Main() {
 
   return <div className='Main'>
     <div className='mid'>
-      <img className='img-web' src="/public/images/image-web-3-desktop.jpg" alt="" />
-      <img className='img-mobile' src="/public/images/image-web-3-mobile.jpg" alt="" />
+      <img className='img-web' src="./public/images/image-web-3-desktop.jpg" alt="" />
+      <img className='img-mobile' src="./public/images/image-web-3-mobile.jpg" alt="" />
       <div className='container'>
         <div className='title'>
           The Bright Future of Web 3.0?
