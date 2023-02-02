@@ -1,11 +1,13 @@
 import { useState } from 'react'
 import New from './New'
+import imageWeb3Desktop from "../../public/images/imageWeb3Desktop.jpg"
+import imageWeb3Mobile from "../../public/images/imageWeb3Mobile.jpg"
 function Main() {
 
   return <div className='Main'>
     <div className='mid'>
-      <img className='img-web' src="./public/images/image-web-3-desktop.jpg" alt="" />
-      <img className='img-mobile' src="./public/images/image-web-3-mobile.jpg" alt="" />
+      <img className='img-web' src={imageWeb3Desktop} alt="" />
+      <img className='img-mobile' src={imageWeb3Mobile} alt="" />
       <div className='container'>
         <div className='title'>
           The Bright Future of Web 3.0?
