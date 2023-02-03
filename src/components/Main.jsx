@@ -23,7 +23,7 @@ function Main() {
       </div>
     </div>
     <div className='main-right'>
-      <div>
+      <div className='title-container'>
         <h3>NEW</h3>
       </div>
       <div className='container-news'>
